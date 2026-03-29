@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="TrueSelf">
+  <defs>
+    <linearGradient id="ts-accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <!-- Dark tile: reads on light + dark browser chrome -->
+  <rect width="32" height="32" rx="7" fill="#0a0a0a"/>
+  <!-- Mirror twins: two rounded pillars = self + digital twin -->
+  <rect x="8" y="9" width="5" height="14" rx="2.5" fill="#1e293b"/>
+  <rect x="19" y="9" width="5" height="14" rx="2.5" fill="url(#ts-accent)"/>
+</svg>
