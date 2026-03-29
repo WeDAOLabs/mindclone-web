@@ -1,32 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="TrueSelf">
-  <defs>
-    <linearGradient id="ts-accent" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#2563eb"/>
-      <stop offset="100%" stop-color="#7c3aed"/>
-    </linearGradient>
-  </defs>
+  <!-- 与 Navbar 品牌标一致：外圈圆 + 内圈反色圆（w-8 h-8 / w-4 h-4） -->
   <style>
-    .twin-muted {
-      fill: #475569;
-      stroke: rgba(15, 23, 42, 0.18);
-      stroke-width: 0.6;
+    .outer {
+      fill: #000000;
     }
-    .twin-accent {
-      fill: url(#ts-accent);
-      stroke: rgba(15, 23, 42, 0.12);
-      stroke-width: 0.5;
+    .inner {
+      fill: #ffffff;
     }
     @media (prefers-color-scheme: dark) {
-      .twin-muted {
-        fill: #e2e8f0;
-        stroke: rgba(255, 255, 255, 0.22);
+      .outer {
+        fill: #ffffff;
       }
-      .twin-accent {
-        stroke: rgba(255, 255, 255, 0.18);
+      .inner {
+        fill: #000000;
       }
     }
   </style>
-  <!-- Transparent background; mirror twins = self + digital twin -->
-  <rect class="twin-muted" x="8" y="9" width="5" height="14" rx="2.5"/>
-  <rect class="twin-accent" x="19" y="9" width="5" height="14" rx="2.5"/>
+  <circle class="outer" cx="16" cy="16" r="16"/>
+  <circle class="inner" cx="16" cy="16" r="8"/>
 </svg>
