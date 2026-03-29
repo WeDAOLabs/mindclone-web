@@ -749,7 +749,7 @@ const ContactModal = ({ isOpen, onClose }: { isOpen: boolean; onClose: () => voi
                 <div className="bg-neutral-50 dark:bg-neutral-800 p-6 rounded-2xl mb-8 flex justify-center">
                 <img 
                   src="/qrcode.png" 
-                  alt="Contact QR Code" 
+                  alt="企业微信联系二维码" 
                   className="w-48 h-48 object-contain"
                   referrerPolicy="no-referrer"
                 />
